@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.12",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "game_2d",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Paper2D",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"Android"
+	]
+}
